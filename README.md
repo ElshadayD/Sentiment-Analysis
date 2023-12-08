@@ -1,4 +1,4 @@
-# Movie Review Sentiment Analysis
+# Sentiment Analysis
 
 An example of sentiment analysis on movie reviews using the Naive Bayes classifier from scikit-learn and the Natural Language Toolkit (NLTK).
 
