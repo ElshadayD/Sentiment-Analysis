@@ -8,11 +8,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
-# Download NLTK data (if not already downloaded)
 nltk.download("movie_reviews")
 nltk.download("stopwords")
 
-# Load movie reviews dataset
 documents = [(list(movie_reviews.words(fileid)), category)
              for category in movie_reviews.categories()
              for fileid in movie_reviews.fileids(category)]
@@ -32,7 +30,6 @@ for w in movie_reviews.words():
 # Create a frequency distribution of words
 all_words_freq = FreqDist(all_words)
 
-# Select the most frequent words as features
 word_features = list(all_words_freq.keys())[:3000]
 
 # Define a function to extract features from a document
