@@ -1,10 +1,17 @@
-# Sentiment Analysis
+# Amharic Sentiment Classification with BERT
 
-An example of sentiment analysis on movie reviews using the Naive Bayes classifier from scikit-learn and the Natural Language Toolkit (NLTK).
+This project fine-tunes **BERT (bert-base-multilingual-cased)** on the [Amharic Sentiment Dataset](https://huggingface.co/datasets/rasyosef/amharic-sentiment) to classify tweets as **positive** or **negative**.
 
+---
 
-## Overview
+## 📌 Features
+- Preprocessing and label mapping (`positive`, `negative`)
+- Fine-tuning BERT for sequence classification
+- Train/validation split with PyTorch `DataLoader`
+- Loss function: Cross-Entropy Loss (with padding ignored)
+- Optimizer: Adam
+- Custom **prediction function** for inference
 
-This code performs sentiment analysis on the movie reviews dataset using a Naive Bayes classifier. The dataset is preprocessed, and features are extracted using NLTK. The script demonstrates how to train a classifier and evaluate its accuracy on a test set.
+---
 
-
+## 📂 Project Structure
