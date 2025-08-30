@@ -4,7 +4,7 @@ This project fine-tunes **BERT (bert-base-multilingual-cased)** on the [Amharic 
 
 ---
 
-## 📌 Features
+##  Features
 - Preprocessing and label mapping (`positive`, `negative`)
 - Fine-tuning BERT for sequence classification
 - Train/validation split with PyTorch `DataLoader`
@@ -14,4 +14,3 @@ This project fine-tunes **BERT (bert-base-multilingual-cased)** on the [Amharic 
 
 ---
 
-## 📂 Project Structure
